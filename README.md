@@ -4,7 +4,7 @@
 <br/><br/>
   <section>
     
-- cloud_assessment1 is the project repository where the web app files reside.
+- visitors_main is the project repository where the web app files reside.
     
 - Created a dockerfile inside the root of the repository as below:
     
