@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Enter Your Details</title>
+</head>
+<body>
+<h1 align="center">Enter & Update Visitor Details</h1>
+<form action="createVisitor" method="POST" style="text-align:center">
+{% csrf_token %}
+<table style="margin-left:auto;margin-right:auto">
+<tr>
+<th>First Name:</th>
+<th><input type="text" name="fname"/></th>
+</tr>
+<tr>
+<th>Last Name:</th>
+<th><input type="text" name="lname"/></th>
+</tr>
+<tr>
+<th>Gender:</th>
+<th><input type="text" name="gender"/></th>
+</tr>
+<tr>
+<th>Age:</th>
+<th><input type="text" name="age"/></th>
+</tr>
+<tr>
+<th></th>
+<th><input type="submit" value="Add"/></th>
+</tr>
+</table>
+</form>
+</body>
+<br/><br/>
+<footer>
+<div style="text-align:center">
+	<form action='goToHome' method='GET'>
+		<button type='submit' style="align:center">Home</button>
+	</form>
+</div>
+</footer>
+</html>

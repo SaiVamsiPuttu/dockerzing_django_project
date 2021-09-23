@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WebPage Visitors Details</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+</head>
+<body>
+<h1 style="color:black;text-align:center">Visitor Details</h1>
+<div class="container">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Visitor ID</th>
+	<th>First Name</th>
+	<th>Last Name</th>
+	<th>Gender</th>
+	<th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+	{% for vis in visitor %}  
+      <tr>
+        <td>{{vis.id}}</td>
+        <td>{{vis.fname}}</td>
+	<td>{{vis.lname}}</td>
+	<td>{{vis.gender}}</td>
+	<td>{{vis.age}}</td>
+      </tr>
+	  {% endfor %}
+     </tbody>
+</table>	
+</div>
+<div style="text-align:center">
+	<form action='goToHome' method='GET'>
+		<button type='submit'>Home</button>
+	</form>
+</div>
+</body>
+</html>
