@@ -11,8 +11,8 @@
   </section>
  <br/><br/> 
 
-![dockerfile](https://user-images.githubusercontent.com/62174158/131689024-f92040b6-bdc7-47a7-b6c6-0b9b69db7676.png)
-  
+  ![docker](https://user-images.githubusercontent.com/67168573/134577732-fc20ee88-181f-479b-a3d2-b2bce3807c52.png)
+
 <br/><br/>
 <section>
   
@@ -44,7 +44,7 @@ my django web server and mysql database server.
   
   </section>
 
-![image](https://user-images.githubusercontent.com/62174158/131687417-eb469641-594c-47d9-9d9a-77e53d5aaf2f.png)
+![docker-compose](https://user-images.githubusercontent.com/67168573/134577831-7633643c-9899-43cc-a3a8-a6e66ac70449.png)
 
  
 - I ran into a problem where my webserver was starting before my db server. To counter that I have created a shell script which
